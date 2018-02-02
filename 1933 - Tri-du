@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+def main():
+    A, B = (int(i) for i in input().split())
+    if A >= B:
+        print(A)
+    elif A <= B:
+        print(B)
+if __name__ == '__main__':
+    main()
